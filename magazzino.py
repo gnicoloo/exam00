@@ -5,3 +5,9 @@ class Magazzino:
         self.scorta = scorta
     def __str__(self):
         return f"{self.responsabile} ({self.codice}): {self.scorta} unità"
+    def carica(self, quota):
+        if(quota > 0):
+            self.scorta += quota
+            return True
+        else:
+            return False
