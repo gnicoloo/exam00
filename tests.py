@@ -128,3 +128,21 @@ assert s.descrizione == "Riassortimento"
 assert s.eseguita is False
 
 print("PASSO 5 OK\n")
+
+# --------------------------------------------------
+
+print("========== PASSO 6 ==========")
+
+descrizione = str(s)
+
+print("Descrizione spedizione:")
+print(descrizione)
+
+assert "in attesa" in descrizione
+assert "Luca Verdi" in descrizione
+assert "Sara Neri" in descrizione
+assert "100" in descrizione
+
+print("PASSO 6 OK\n")
+
+# --------------------------------------------------
