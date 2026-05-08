@@ -1,5 +1,5 @@
 from magazzino import Magazzino
-#from spedizione import Spedizione
+from spedizione import Spedizione
 
 print("========== PASSO 1 ==========")
 
@@ -105,3 +105,26 @@ assert m.scorta == 120
 print("PASSO 4 OK\n")
 
 # --------------------------------------------------
+# --------------------------------------------------
+
+print("========== PASSO 5 ==========")
+
+mittente = Magazzino("Luca Verdi", "MAG-LV", 1000)
+destinatario = Magazzino("Sara Neri", "MAG-SN", 200)
+
+s = Spedizione(mittente, destinatario, 100, "Riassortimento")
+
+print("Spedizione creata:")
+print("Mittente:", s.mittente)
+print("Destinatario:", s.destinatario)
+print("Quantità:", s.quantita)
+print("Descrizione:", s.descrizione)
+print("Eseguita:", s.eseguita)
+
+assert s.mittente is mittente
+assert s.destinatario is destinatario
+assert s.quantita == 100
+assert s.descrizione == "Riassortimento"
+assert s.eseguita is False
+
+print("PASSO 5 OK\n")
