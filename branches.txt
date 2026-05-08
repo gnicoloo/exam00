@@ -1,0 +1,14 @@
+* main                  eac48c5 spedizione.esegui implemented
+  passo1                897855c passo 1
+  passo3                3629fc6 passo 3 add carica
+  passo4                5b0263c passo 4 add scarica
+  passo5                7c5684a passo 5 implemented spedizione class
+  passo6                c942062 passo 6 implemented __str__
+  passo7                eac48c5 spedizione.esegui implemented
+  remotes/origin/main   eac48c5 spedizione.esegui implemented
+  remotes/origin/passo1 897855c passo 1
+  remotes/origin/passo3 3629fc6 passo 3 add carica
+  remotes/origin/passo4 5b0263c passo 4 add scarica
+  remotes/origin/passo5 7c5684a passo 5 implemented spedizione class
+  remotes/origin/passo6 c942062 passo 6 implemented __str__
+  remotes/origin/passo7 eac48c5 spedizione.esegui implemented

@@ -1,0 +1,882 @@
+ echo "# exam00" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:gnicoloo/exam00.git
+git push -u origin main
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /mnt/c/Users/aula/Desktop/mm/.git/
+[master (root-commit) 9095f06] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 9.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:gnicoloo/exam00.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+10:46:57 user@PC3355 mm ±|main✔|→ touch .gitignore
+10:47:04 user@PC3355 mm ±|main ✗|→ nano .
+./          ../         .git/       .gitignore
+10:47:04 user@PC3355 mm ±|main ✗|→ nano .g
+.git/       .gitignore
+10:47:04 user@PC3355 mm ±|main ✗|→ nano .gitignore
+
+10:47:32 user@PC3355 mm ±|main ✗|→
+10:47:32 user@PC3355 mm ±|main ✗|→ git add .
+10:47:36 user@PC3355 mm ±|main ✗|→ git commit -m "add gitignore"
+[main 6248479] add gitignore
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 ".gitignore\303\240"
+10:47:50 user@PC3355 mm ±|main✔|→ ls
+README.md
+10:47:57 user@PC3355 mm ±|main✔|→ la
+total 0
+drwxrwxrwx 1 user user 4.0K May  8 10:47 .git
+-rwxrwxrwx 1 user user    0 May  8 10:47 .gitignore
+-rwxrwxrwx 1 user user   13 May  8 10:47 .gitignoreà
+-rwxrwxrwx 1 user user    9 May  8 10:46 README.md
+10:48:00 user@PC3355 mm ±|main✔|→ rm .
+./           ../          .git/        .gitignore   .gitignoreà
+10:48:00 user@PC3355 mm ±|main✔|→ rm .g
+.git/        .gitignore   .gitignoreà
+10:48:00 user@PC3355 mm ±|main✔|→ rm .giti
+.gitignore   .gitignoreà
+10:48:00 user@PC3355 mm ±|main✔|→ rm .gitignoreà
+10:48:09 user@PC3355 mm ±|main ✗|→ ls
+README.md
+10:48:10 user@PC3355 mm ±|main ✗|→ nano .gitignore
+10:48:17 user@PC3355 mm ±|main ✗|→ ls
+README.md
+10:48:18 user@PC3355 mm ±|main ✗|→ git add .
+10:48:22 user@PC3355 mm ±|main ✗|→ git commit -m "add gitignore"
+[main 2dba06c] add gitignore
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ delete mode 100644 ".gitignore\303\240"
+10:48:25 user@PC3355 mm ±|main✔|→ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 570 bytes | 12.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:gnicoloo/exam00.git
+   9095f06..2dba06c  main -> main
+10:48:32 user@PC3355 mm ±|main✔|→ git branch passo1
+10:48:44 user@PC3355 mm ±|main✔|→ git checkout passo1
+Switched to branch 'passo1'
+10:48:50 user@PC3355 mm ±|passo1✔|→ touch magazzino.py spedizione.py tests.py
+10:48:56 user@PC3355 mm ±|passo1 ✗|→ nano magazzino.py
+10:49:16 user@PC3355 mm ±|passo1 ✗|→ nano tests.py
+10:49:43 user@PC3355 mm ±|passo1 ✗|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: <magazzino.Magazzino object at 0x704f0e44cf80>
+PASSO 1 OK
+
+10:49:53 user@PC3355 mm ±|passo1 ✗|→ git add .
+10:50:01 user@PC3355 mm ±|passo1 ✗|→ git commit -m "passo 1"
+[passo1 897855c] passo 1
+ 3 files changed, 25 insertions(+)
+ create mode 100644 magazzino.py
+ create mode 100644 spedizione.py
+ create mode 100644 tests.py
+10:50:14 user@PC3355 mm ±|passo1✔|→ git push
+fatal: The current branch passo1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin passo1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+10:50:18 user@PC3355 mm ±|passo1✔|→ git push --set-upstream origin passo1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 717 bytes | 21.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'passo1' on GitHub by visiting:
+remote:      https://github.com/gnicoloo/exam00/pull/new/passo1
+remote:
+To github.com:gnicoloo/exam00.git
+ * [new branch]      passo1 -> passo1
+branch 'passo1' set up to track 'origin/passo1'.
+10:50:30 user@PC3355 mm ±|passo1✔|→ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+10:51:12 user@PC3355 mm ±|main✔|→ git pull origin main
+From github.com:gnicoloo/exam00
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+10:51:17 user@PC3355 mm ±|main✔|→ git mer
+merge       mergetool
+10:51:17 user@PC3355 mm ±|main✔|→ git merge
+FETCH_HEAD      HEAD            ORIG_HEAD       main            origin/main     origin/passo1   passo1
+10:51:17 user@PC3355 mm ±|main✔|→ git merge passo1
+Updating 2dba06c..897855c
+Fast-forward
+ magazzino.py  |  5 +++++
+ spedizione.py |  0
+ tests.py      | 20 ++++++++++++++++++++
+ 3 files changed, 25 insertions(+)
+ create mode 100644 magazzino.py
+ create mode 100644 spedizione.py
+ create mode 100644 tests.py
+10:51:35 user@PC3355 mm ±|main✔|→ ls
+README.md  __pycache__  magazzino.py  spedizione.py  tests.py
+10:51:37 user@PC3355 mm ±|main✔|→ la
+total 0
+drwxrwxrwx 1 user user 4.0K May  8 10:51 .git
+-rwxrwxrwx 1 user user   13 May  8 10:48 .gitignore
+-rwxrwxrwx 1 user user    9 May  8 10:46 README.md
+drwxrwxrwx 1 user user 4.0K May  8 10:49 __pycache__
+-rwxrwxrwx 1 user user  172 May  8 10:51 magazzino.py
+-rwxrwxrwx 1 user user    0 May  8 10:51 spedizione.py
+-rwxrwxrwx 1 user user  459 May  8 10:51 tests.py
+10:51:45 user@PC3355 mm ±|main✔|→ git add .
+10:51:50 user@PC3355 mm ±|main✔|→ git commit -m " merge passo 1"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+10:51:58 user@PC3355 mm ±|main✔|→ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:gnicoloo/exam00.git
+   2dba06c..897855c  main -> main
+10:52:07 user@PC3355 mm ±|main✔|→ cat tests.py
+from magazzino import Magazzino
+#from spedizione import Spedizione
+
+print("========== PASSO 1 ==========")
+
+m = Magazzino("Mario Rossi", "MAG-001", 100)
+
+print("Creato magazzino:", m.responsabile, m.codice, m.scorta)
+
+assert m.responsabile == "Mario Rossi"
+assert m.codice == "MAG-001"
+assert m.scorta == 100
+
+m_default = Magazzino("Anna Bianchi", "MAG-002")
+
+print("Creato magazzino default:", m_default)
+
+assert m_default.scorta == 0
+
+print("PASSO 1 OK\n")
+10:52:10 user@PC3355 mm ±|main✔|→ cat
+.git/          .gitignore     README.md      __pycache__/   magazzino.py   spedizione.py  tests.py
+10:52:10 user@PC3355 mm ±|main✔|→ cat magazzino.py
+class Magazzino:
+    def __init__(self, responsabile, codice, scorta=0):
+        self.responsabile = responsabile
+        self.codice = codice
+        self.scorta = scorta
+10:52:16 user@PC3355 mm ±|main✔|→ git branch passo 2
+fatal: not a valid object name: '2'
+10:52:26 user@PC3355 mm ±|main✔|→ ls
+README.md  __pycache__  magazzino.py  spedizione.py  tests.py
+10:52:29 user@PC3355 mm ±|main✔|→ nano tests.py
+10:52:53 user@PC3355 mm ±|main ✗|→ nano magazzino.py
+10:53:12 user@PC3355 mm ±|main ✗|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+10:53:15 user@PC3355 mm ±|main ✗|→ git add .
+10:53:20 user@PC3355 mm ±|main ✗|→ git commit -m "passo 2"
+[main 5a82f6f] passo 2
+ 2 files changed, 15 insertions(+)
+10:53:36 user@PC3355 mm ±|main✔|→ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 552 bytes | 36.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:gnicoloo/exam00.git
+   897855c..5a82f6f  main -> main
+10:53:41 user@PC3355 mm ±|main✔|→ git checkout main
+ùAlready on 'main'
+Your branch is up to date with 'origin/main'.
+10:53:46 user@PC3355 mm ±|main✔|→ git merge passo2
+merge: passo2 - not something we can merge
+10:53:54 user@PC3355 mm ±|main✔|→ git pull origin main
+From github.com:gnicoloo/exam00
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+10:54:07 user@PC3355 mm ±|main✔|→ git merge passo2
+merge: passo2 - not something we can merge
+10:54:10 user@PC3355 mm ±|main✔|→ ls
+README.md  __pycache__  magazzino.py  spedizione.py  tests.py
+10:54:12 user@PC3355 mm ±|main✔|→ cat tests.py
+from magazzino import Magazzino
+#from spedizione import Spedizione
+
+print("========== PASSO 1 ==========")
+
+m = Magazzino("Mario Rossi", "MAG-001", 100)
+
+print("Creato magazzino:", m.responsabile, m.codice, m.scorta)
+
+assert m.responsabile == "Mario Rossi"
+assert m.codice == "MAG-001"
+assert m.scorta == 100
+
+m_default = Magazzino("Anna Bianchi", "MAG-002")
+
+print("Creato magazzino default:", m_default)
+
+assert m_default.scorta == 0
+
+print("PASSO 1 OK\n")
+
+
+# --------------------------------------------------
+
+print("========== PASSO 2 ==========")
+
+print("Stringa magazzino:", str(m))
+
+assert str(m) == "Mario Rossi (MAG-001): 100 unità"
+
+print(m)
+
+print("PASSO 2 OK\n")
+10:54:16 user@PC3355 mm ±|main✔|→ ls
+README.md  __pycache__  magazzino.py  spedizione.py  tests.py
+10:54:35 user@PC3355 mm ±|main✔|→ git ch
+checkout      cherry        cherry-pick
+10:54:35 user@PC3355 mm ±|main✔|→ git checkout passo2
+error: pathspec 'passo2' did not match any file(s) known to git
+10:54:50 user@PC3355 mm ±|main✔|→ ls
+README.md  __pycache__  magazzino.py  spedizione.py  tests.py
+10:54:52 user@PC3355 mm ±|main✔|→ git merge passo3
+merge: passo3 - not something we can merge
+10:55:04 user@PC3355 mm ±|main✔|→ git branch  passo3
+10:55:14 user@PC3355 mm ±|main✔|→ git branch  passo3
+fatal: a branch named 'passo3' already exists
+10:55:17 user@PC3355 mm ±|main✔|→ git checkout   passo3
+Switched to branch 'passo3'
+10:55:25 user@PC3355 mm ±|passo3✔|→ nano
+.git/          .gitignore     README.md      __pycache__/   magazzino.py   spedizione.py  tests.py
+10:55:25 user@PC3355 mm ±|passo3✔|→ nano  tests.py
+10:55:56 user@PC3355 mm ±|passo3 ✗|→ git add .
+10:56:01 user@PC3355 mm ±|passo3 ✗|→ git commit -m "passo 3"
+[passo3 2fdbf30] passo 3
+ 1 file changed, 32 insertions(+)
+10:56:05 user@PC3355 mm ±|passo3✔|→ git push
+fatal: The current branch passo3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin passo3
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+10:56:09 user@PC3355 mm ±|passo3✔|→ git push --set-upstream origin passo3
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 460 bytes | 25.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'passo3' on GitHub by visiting:
+remote:      https://github.com/gnicoloo/exam00/pull/new/passo3
+remote:
+To github.com:gnicoloo/exam00.git
+ * [new branch]      passo3 -> passo3
+branch 'passo3' set up to track 'origin/passo3'.
+10:56:20 user@PC3355 mm ±|passo3✔|→ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+10:56:24 user@PC3355 mm ±|main✔|→ git merge passo3
+Updating 5a82f6f..2fdbf30
+Fast-forward
+ tests.py | 32 ++++++++++++++++++++++++++++++++
+ 1 file changed, 32 insertions(+)
+10:56:30 user@PC3355 mm ±|main✔|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Traceback (most recent call last):
+  File "/mnt/c/Users/aula/Desktop/mm/tests.py", line 41, in <module>
+    risultato = m.carica(50)
+                ^^^^^^^^
+AttributeError: 'Magazzino' object has no attribute 'carica'
+10:56:34 user@PC3355 mm ±|main✔|→ git checkout   passo3
+Switched to branch 'passo3'
+Your branch is up to date with 'origin/passo3'.
+10:57:00 user@PC3355 mm ±|passo3✔|→ nano magazzino.py
+10:57:07 user@PC3355 mm ±|passo3 ✗|→ git add .
+g10:57:12 user@PC3355 mm ±|passo3 ✗|→ git commit -m "passo 3 add carica"
+[passo3 3629fc6] passo 3 add carica
+ 1 file changed, 6 insertions(+)
+10:57:23 user@PC3355 mm ±|passo3✔|→ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 376 bytes | 20.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:gnicoloo/exam00.git
+   2fdbf30..3629fc6  passo3 -> passo3
+10:57:29 user@PC3355 mm ±|passo3✔|→ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+10:57:33 user@PC3355 mm ±|main✔|→ git pull origin main
+From github.com:gnicoloo/exam00
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+10:57:49 user@PC3355 mm ±|main✔|→ git merge passo3
+Updating 2fdbf30..3629fc6
+Fast-forward
+ magazzino.py | 6 ++++++
+ 1 file changed, 6 insertions(+)
+10:57:58 user@PC3355 mm ±|main✔|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Carica 50 -> True
+Nuova scorta: 150
+Carica 0 -> False
+Scorta: 150
+Carica -10 -> False
+Scorta: 150
+PASSO 3 OK
+
+10:58:02 user@PC3355 mm ±|main✔|→ git branch  passo4
+10:58:27 user@PC3355 mm ±|main✔|→ git checkout   passo4
+Switched to branch 'passo4'
+10:58:37 user@PC3355 mm ±|passo4✔|→ nano tests.py
+10:59:11 user@PC3355 mm ±|passo4 ✗|→ nano magazzino.py
+10:59:49 user@PC3355 mm ±|passo4 ✗|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Carica 50 -> True
+Nuova scorta: 150
+Carica 0 -> False
+Scorta: 150
+Carica -10 -> False
+Scorta: 150
+PASSO 3 OK
+
+========== PASSO 4 ==========
+Scorta iniziale: 150
+Scarica 30 -> True
+Scorta: 120
+Scarica 0 -> False
+Scorta: 120
+Scarica -5 -> False
+Scorta: 120
+Scarica 10000 -> False
+Scorta: 120
+PASSO 4 OK
+
+10:59:54 user@PC3355 mm ±|passo4 ✗|→ git add .
+11:00:00 user@PC3355 mm ±|passo4 ✗|→ git commit -m "passo 4 add scarica"
+[passo4 5b0263c] passo 4 add scarica
+ 2 files changed, 47 insertions(+)
+11:00:07 user@PC3355 mm ±|passo4✔|→ git push --set-upstream origin passo4
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 583 bytes | 34.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'passo4' on GitHub by visiting:
+remote:      https://github.com/gnicoloo/exam00/pull/new/passo4
+remote:
+To github.com:gnicoloo/exam00.git
+ * [new branch]      passo4 -> passo4
+branch 'passo4' set up to track 'origin/passo4'.
+11:00:20 user@PC3355 mm ±|passo4✔|→ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+11:00:26 user@PC3355 mm ±|main✔|→ git pull origin main
+From github.com:gnicoloo/exam00
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+11:00:34 user@PC3355 mm ±|main✔|→ git merge passo45
+merge: passo45 - not something we can merge
+11:00:38 user@PC3355 mm ±|main✔|→ git merge passo4
+Updating 3629fc6..5b0263c
+Fast-forward
+ magazzino.py |  5 +++++
+ tests.py     | 42 ++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 47 insertions(+)
+11:00:41 user@PC3355 mm ±|main✔|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Carica 50 -> True
+Nuova scorta: 150
+Carica 0 -> False
+Scorta: 150
+Carica -10 -> False
+Scorta: 150
+PASSO 3 OK
+
+========== PASSO 4 ==========
+Scorta iniziale: 150
+Scarica 30 -> True
+Scorta: 120
+Scarica 0 -> False
+Scorta: 120
+Scarica -5 -> False
+Scorta: 120
+Scarica 10000 -> False
+Scorta: 120
+PASSO 4 OK
+
+11:00:45 user@PC3355 mm ±|main✔|→ git add .
+11:00:49 user@PC3355 mm ±|main✔|→ git commit -m "passo 4 merge"
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+11:01:01 user@PC3355 mm ±|main✔|→ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:gnicoloo/exam00.git
+   5a82f6f..5b0263c  main -> main
+11:01:06 user@PC3355 mm ±|main✔|→ ls
+README.md  __pycache__  magazzino.py  spedizione.py  tests.py
+11:01:08 user@PC3355 mm ±|main✔|→ git branch  passo5
+11:01:32 user@PC3355 mm ±|main✔|→ git checkout passo5
+Switched to branch 'passo5'
+11:01:43 user@PC3355 mm ±|passo5✔|→ nano
+.git/          .gitignore     README.md      __pycache__/   magazzino.py   spedizione.py  tests.py
+11:01:43 user@PC3355 mm ±|passo5✔|→ nano tests.py
+11:02:15 user@PC3355 mm ±|passo5 ✗|→ nano spedizione.py
+11:02:56 user@PC3355 mm ±|passo5 ✗|→ nano tests.py
+11:03:02 user@PC3355 mm ±|passo5 ✗|→ pùython3 tests.py
+Command 'pùython3' not found, did you mean:
+  command 'python3' from deb python3 (3.12.3-0ubuntu2.1)
+Try: sudo apt install <deb name>
+11:03:09 user@PC3355 mm ±|passo5 ✗|→ pùython3 tests.py
+Command 'pùython3' not found, did you mean:
+  command 'python3' from deb python3 (3.12.3-0ubuntu2.1)
+Try: sudo apt install <deb name>
+11:03:13 user@PC3355 mm ±|passo5 ✗|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Carica 50 -> True
+Nuova scorta: 150
+Carica 0 -> False
+Scorta: 150
+Carica -10 -> False
+Scorta: 150
+PASSO 3 OK
+
+========== PASSO 4 ==========
+Scorta iniziale: 150
+Scarica 30 -> True
+Scorta: 120
+Scarica 0 -> False
+Scorta: 120
+Scarica -5 -> False
+Scorta: 120
+Scarica 10000 -> False
+Scorta: 120
+PASSO 4 OK
+
+========== PASSO 5 ==========
+Spedizione creata:
+Mittente: Luca Verdi (MAG-LV): 1000 unità
+Destinatario: Sara Neri (MAG-SN): 200 unità
+Quantità: 100
+Descrizione: Riassortimento
+Eseguita: False
+PASSO 5 OK
+
+11:03:15 user@PC3355 mm ±|passo5 ✗|→ git add .à
+fatal: pathspec '.à' did not match any files
+11:03:19 user@PC3355 mm ±|passo5 ✗|→ git add .
+11:03:23 user@PC3355 mm ±|passo5 ✗|→ git commit -m "passo 5 implemented spedizione class"
+[passo5 7c5684a] passo 5 implemented spedizione class
+ 2 files changed, 31 insertions(+), 1 deletion(-)
+11:03:45 user@PC3355 mm ±|passo5✔|→ git push
+fatal: The current branch passo5 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin passo5
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+11:03:50 user@PC3355 mm ±|passo5✔|→ git push --set-upstream origin passo5
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 767 bytes | 45.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'passo5' on GitHub by visiting:
+remote:      https://github.com/gnicoloo/exam00/pull/new/passo5
+remote:
+To github.com:gnicoloo/exam00.git
+ * [new branch]      passo5 -> passo5
+branch 'passo5' set up to track 'origin/passo5'.
+11:04:01 user@PC3355 mm ±|passo5✔|→ git ch
+checkout      cherry        cherry-pick
+11:04:01 user@PC3355 mm ±|passo5✔|→ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+11:04:08 user@PC3355 mm ±|main✔|→ git pull origin main
+From github.com:gnicoloo/exam00
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+11:04:17 user@PC3355 mm ±|main✔|→ git merge passo5
+Updating 5b0263c..7c5684a
+Fast-forward
+ spedizione.py |  7 +++++++
+ tests.py      | 25 ++++++++++++++++++++++++-
+ 2 files changed, 31 insertions(+), 1 deletion(-)
+11:04:25 user@PC3355 mm ±|main✔|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Carica 50 -> True
+Nuova scorta: 150
+Carica 0 -> False
+Scorta: 150
+Carica -10 -> False
+Scorta: 150
+PASSO 3 OK
+
+========== PASSO 4 ==========
+Scorta iniziale: 150
+Scarica 30 -> True
+Scorta: 120
+Scarica 0 -> False
+Scorta: 120
+Scarica -5 -> False
+Scorta: 120
+Scarica 10000 -> False
+Scorta: 120
+PASSO 4 OK
+
+========== PASSO 5 ==========
+Spedizione creata:
+Mittente: Luca Verdi (MAG-LV): 1000 unità
+Destinatario: Sara Neri (MAG-SN): 200 unità
+Quantità: 100
+Descrizione: Riassortimento
+Eseguita: False
+PASSO 5 OK
+
+11:04:28 user@PC3355 mm ±|main✔|→ git add .
+11:04:31 user@PC3355 mm ±|main✔|→ git commit -m "passo 5 merge"
+àOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+11:04:39 user@PC3355 mm ±|main✔|→ àgit push
+Command 'àgit' not found, did you mean:
+  command 'git' from deb git (1:2.43.0-1ubuntu7.3)
+  command 'dgit' from deb dgit (11.5)
+  command 'jgit' from deb jgit-cli (4.11.9-2)
+  command 'qgit' from deb qgit (2.10-2)
+Try: sudo apt install <deb name>
+11:04:43 user@PC3355 mm ±|main✔|→ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:gnicoloo/exam00.git
+   5b0263c..7c5684a  main -> main
+11:04:53 user@PC3355 mm ±|main✔|→ git branch passo6
+11:05:04 user@PC3355 mm ±|main✔|→ git checkout passo6
+Switched to branch 'passo6'
+11:05:15 user@PC3355 mm ±|passo6✔|→ nano spedizione.py
+11:05:42 user@PC3355 mm ±|passo6 ✗|→ nano tests.py
+11:06:03 user@PC3355 mm ±|passo6 ✗|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Carica 50 -> True
+Nuova scorta: 150
+Carica 0 -> False
+Scorta: 150
+Carica -10 -> False
+Scorta: 150
+PASSO 3 OK
+
+========== PASSO 4 ==========
+Scorta iniziale: 150
+Scarica 30 -> True
+Scorta: 120
+Scarica 0 -> False
+Scorta: 120
+Scarica -5 -> False
+Scorta: 120
+Scarica 10000 -> False
+Scorta: 120
+PASSO 4 OK
+
+========== PASSO 5 ==========
+Spedizione creata:
+Mittente: Luca Verdi (MAG-LV): 1000 unità
+Destinatario: Sara Neri (MAG-SN): 200 unità
+Quantità: 100
+Descrizione: Riassortimento
+Eseguita: False
+PASSO 5 OK
+
+========== PASSO 6 ==========
+Descrizione spedizione:
+100.00 unità da Luca Verdi a Sara Neri (in attesa)
+PASSO 6 OK
+
+11:06:04 user@PC3355 mm ±|passo6 ✗|→ git add .
+11:06:10 user@PC3355 mm ±|passo6 ✗|→ git commit -m "passo 6 implemented __str__"
+[passo6 c942062] passo 6 implemented __str__
+ 2 files changed, 27 insertions(+)
+11:06:30 user@PC3355 mm ±|passo6✔|→ git push
+fatal: The current branch passo6 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin passo6
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+11:06:34 user@PC3355 mm ±|passo6✔|→ git push --set-upstream origin passo6
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 712 bytes | 37.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'passo6' on GitHub by visiting:
+remote:      https://github.com/gnicoloo/exam00/pull/new/passo6
+remote:
+To github.com:gnicoloo/exam00.git
+ * [new branch]      passo6 -> passo6
+branch 'passo6' set up to track 'origin/passo6'.
+11:06:45 user@PC3355 mm ±|passo6✔|→ git che
+checkout      cherry        cherry-pick
+11:06:45 user@PC3355 mm ±|passo6✔|→ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+11:06:53 user@PC3355 mm ±|main✔|→ git merge passo6
+Updating 7c5684a..c942062
+Fast-forward
+ spedizione.py |  9 +++++++++
+ tests.py      | 18 ++++++++++++++++++
+ 2 files changed, 27 insertions(+)
+11:07:00 user@PC3355 mm ±|main✔|→ python3 tests.py
+========== PASSO 1 ==========
+Creato magazzino: Mario Rossi MAG-001 100
+Creato magazzino default: Anna Bianchi (MAG-002): 0 unità
+PASSO 1 OK
+
+========== PASSO 2 ==========
+Stringa magazzino: Mario Rossi (MAG-001): 100 unità
+Mario Rossi (MAG-001): 100 unità
+PASSO 2 OK
+
+========== PASSO 3 ==========
+Scorta iniziale: 100
+Carica 50 -> True
+Nuova scorta: 150
+Carica 0 -> False
+Scorta: 150
+Carica -10 -> False
+Scorta: 150
+PASSO 3 OK
+
+========== PASSO 4 ==========
+Scorta iniziale: 150
+Scarica 30 -> True
+Scorta: 120
+Scarica 0 -> False
+Scorta: 120
+Scarica -5 -> False
+Scorta: 120
+Scarica 10000 -> False
+Scorta: 120
+PASSO 4 OK
+
+========== PASSO 5 ==========
+Spedizione creata:
+Mittente: Luca Verdi (MAG-LV): 1000 unità
+Destinatario: Sara Neri (MAG-SN): 200 unità
+Quantità: 100
+Descrizione: Riassortimento
+Eseguita: False
+PASSO 5 OK
+
+========== PASSO 6 ==========
+Descrizione spedizione:
+100.00 unità da Luca Verdi a Sara Neri (in attesa)
+PASSO 6 OK
+
+11:07:00 user@PC3355 mm ±|main✔|→ git add .à
+fatal: pathspec '.à' did not match any files
+11:07:04 user@PC3355 mm ±|main✔|→ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+11:07:07 user@PC3355 mm ±|main✔|→ git add .
+11:07:10 user@PC3355 mm ±|main✔|→ git commit -m "passo 6 implemented __str__ && now merge"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+11:07:31 user@PC3355 mm ±|main✔|→ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:gnicoloo/exam00.git
+   7c5684a..c942062  main -> main
+11:07:35 user@PC3355 mm ±|main✔|→ git branch passo7
++11:07:43 user@PC3355 mm ±|main✔|→ ls
+README.md  __pycache__  magazzino.py  spedizione.py  tests.py
+11:07:46 user@PC3355 mm ±|main✔|→ git branch
+11:07:55 user@PC3355 mm ±|main✔|→ git checkout passo7
+Switched to branch 'passo7'
+11:08:08 user@PC3355 mm ±|passo7✔|→ nano spedizione.py
+11:08:30 user@PC3355 mm ±|passo7 ✗|→ nano tests.py
+11:08:55 user@PC3355 mm ±|passo7 ✗|→ git add .
+11:08:59 user@PC3355 mm ±|passo7 ✗|→ git commit -m "spedizione.esegui implemented"
+[passo7 eac48c5] spedizione.esegui implemented
+ 2 files changed, 109 insertions(+)
+11:09:31 user@PC3355 mm ±|passo7✔|→ git push --set-upstream origin passo7
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.08 KiB | 47.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'passo7' on GitHub by visiting:
+remote:      https://github.com/gnicoloo/exam00/pull/new/passo7
+remote:
+To github.com:gnicoloo/exam00.git
+ * [new branch]      passo7 -> passo7
+branch 'passo7' set up to track 'origin/passo7'.
+11:09:40 user@PC3355 mm ±|passo7✔|→ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+11:09:46 user@PC3355 mm ±|main✔|→ git pull origin main
+From github.com:gnicoloo/exam00
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+11:09:54 user@PC3355 mm ±|main✔|→ git merge passo7
+Updating c942062..eac48c5
+Fast-forward
+ spedizione.py | 17 +++++++++++++++++
+ tests.py      | 92 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 109 insertions(+)
+11:10:01 user@PC3355 mm ±|main✔|→ git add .
+11:10:08 user@PC3355 mm ±|main✔|→ git commit -m "finish"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+11:10:20 user@PC3355 mm ±|main✔|→ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:gnicoloo/exam00.git
+   c942062..eac48c5  main -> main
+11:10:27 user@PC3355 mm ±|main✔|→

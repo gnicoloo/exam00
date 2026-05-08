@@ -1,0 +1,52 @@
+* eac48c5 | 2026-05-08 11:09 | spedizione.esegui implemented (HEAD -> main, origin/passo7, origin/main, passo7)| 
+|  spedizione.py | 17 +++++++++++
+|  tests.py      | 92 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  2 files changed, 109 insertions(+)
+
+* c942062 | 2026-05-08 11:06 | passo 6 implemented __str__ (origin/passo6, passo6)| 
+|  spedizione.py |  9 +++++++++
+|  tests.py      | 18 ++++++++++++++++++
+|  2 files changed, 27 insertions(+)
+
+* 7c5684a | 2026-05-08 11:03 | passo 5 implemented spedizione class (origin/passo5, passo5)| 
+|  spedizione.py |  7 +++++++
+|  tests.py      | 25 ++++++++++++++++++++++++-
+|  2 files changed, 31 insertions(+), 1 deletion(-)
+
+* 5b0263c | 2026-05-08 11:00 | passo 4 add scarica (origin/passo4, passo4)| 
+|  magazzino.py |  5 +++++
+|  tests.py     | 42 ++++++++++++++++++++++++++++++++++++++++++
+|  2 files changed, 47 insertions(+)
+
+* 3629fc6 | 2026-05-08 10:57 | passo 3 add carica (origin/passo3, passo3)| 
+|  magazzino.py | 6 ++++++
+|  1 file changed, 6 insertions(+)
+
+* 2fdbf30 | 2026-05-08 10:56 | passo 3| 
+|  tests.py | 32 ++++++++++++++++++++++++++++++++
+|  1 file changed, 32 insertions(+)
+
+* 5a82f6f | 2026-05-08 10:53 | passo 2| 
+|  magazzino.py |  2 ++
+|  tests.py     | 13 +++++++++++++
+|  2 files changed, 15 insertions(+)
+
+* 897855c | 2026-05-08 10:50 | passo 1 (origin/passo1, passo1)| 
+|  magazzino.py  |  5 +++++
+|  spedizione.py |  0
+|  tests.py      | 20 ++++++++++++++++++++
+|  3 files changed, 25 insertions(+)
+
+* 2dba06c | 2026-05-08 10:48 | add gitignore| 
+|  .gitignore           | 1 +
+|  ".gitignore\303\240" | 1 -
+|  2 files changed, 1 insertion(+), 1 deletion(-)
+
+* 6248479 | 2026-05-08 10:47 | add gitignore| 
+|  .gitignore           | 0
+|  ".gitignore\303\240" | 1 +
+|  2 files changed, 1 insertion(+)
+
+* 9095f06 | 2026-05-08 10:46 | first commit  
+   README.md | 1 +
+   1 file changed, 1 insertion(+)

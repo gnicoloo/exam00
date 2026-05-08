@@ -1,0 +1,74 @@
+origin/main@{2026-05-08 11:10:27 +0200} | 2026-05-08 11:09:31 +0200 | update by push
+main@{2026-05-08 11:10:01 +0200} | 2026-05-08 11:09:31 +0200 | merge passo7: Fast-forward
+HEAD@{2026-05-08 11:10:01 +0200} | 2026-05-08 11:09:31 +0200 | merge passo7: Fast-forward
+HEAD@{2026-05-08 11:09:46 +0200} | 2026-05-08 11:06:33 +0200 | checkout: moving from passo7 to main
+origin/passo7@{2026-05-08 11:09:39 +0200} | 2026-05-08 11:09:31 +0200 | update by push
+passo7@{2026-05-08 11:09:31 +0200} | 2026-05-08 11:09:31 +0200 | commit: spedizione.esegui implemented
+HEAD@{2026-05-08 11:09:31 +0200} | 2026-05-08 11:09:31 +0200 | commit: spedizione.esegui implemented
+HEAD@{2026-05-08 11:08:08 +0200} | 2026-05-08 11:06:33 +0200 | checkout: moving from main to passo7
+passo7@{2026-05-08 11:07:43 +0200} | 2026-05-08 11:06:33 +0200 | branch: Created from main
+origin/main@{2026-05-08 11:07:35 +0200} | 2026-05-08 11:06:33 +0200 | update by push
+main@{2026-05-08 11:06:59 +0200} | 2026-05-08 11:06:33 +0200 | merge passo6: Fast-forward
+HEAD@{2026-05-08 11:06:59 +0200} | 2026-05-08 11:06:33 +0200 | merge passo6: Fast-forward
+HEAD@{2026-05-08 11:06:53 +0200} | 2026-05-08 11:03:45 +0200 | checkout: moving from passo6 to main
+origin/passo6@{2026-05-08 11:06:45 +0200} | 2026-05-08 11:06:33 +0200 | update by push
+passo6@{2026-05-08 11:06:33 +0200} | 2026-05-08 11:06:33 +0200 | commit: passo 6 implemented __str__
+HEAD@{2026-05-08 11:06:33 +0200} | 2026-05-08 11:06:33 +0200 | commit: passo 6 implemented __str__
+HEAD@{2026-05-08 11:05:15 +0200} | 2026-05-08 11:03:45 +0200 | checkout: moving from main to passo6
+passo6@{2026-05-08 11:05:04 +0200} | 2026-05-08 11:03:45 +0200 | branch: Created from main
+origin/main@{2026-05-08 11:04:53 +0200} | 2026-05-08 11:03:45 +0200 | update by push
+main@{2026-05-08 11:04:25 +0200} | 2026-05-08 11:03:45 +0200 | merge passo5: Fast-forward
+HEAD@{2026-05-08 11:04:25 +0200} | 2026-05-08 11:03:45 +0200 | merge passo5: Fast-forward
+HEAD@{2026-05-08 11:04:08 +0200} | 2026-05-08 11:00:07 +0200 | checkout: moving from passo5 to main
+origin/passo5@{2026-05-08 11:04:01 +0200} | 2026-05-08 11:03:45 +0200 | update by push
+passo5@{2026-05-08 11:03:45 +0200} | 2026-05-08 11:03:45 +0200 | commit: passo 5 implemented spedizione class
+HEAD@{2026-05-08 11:03:45 +0200} | 2026-05-08 11:03:45 +0200 | commit: passo 5 implemented spedizione class
+HEAD@{2026-05-08 11:01:43 +0200} | 2026-05-08 11:00:07 +0200 | checkout: moving from main to passo5
+passo5@{2026-05-08 11:01:32 +0200} | 2026-05-08 11:00:07 +0200 | branch: Created from main
+origin/main@{2026-05-08 11:01:06 +0200} | 2026-05-08 11:00:07 +0200 | update by push
+main@{2026-05-08 11:00:41 +0200} | 2026-05-08 11:00:07 +0200 | merge passo4: Fast-forward
+HEAD@{2026-05-08 11:00:41 +0200} | 2026-05-08 11:00:07 +0200 | merge passo4: Fast-forward
+HEAD@{2026-05-08 11:00:26 +0200} | 2026-05-08 10:57:22 +0200 | checkout: moving from passo4 to main
+origin/passo4@{2026-05-08 11:00:20 +0200} | 2026-05-08 11:00:07 +0200 | update by push
+passo4@{2026-05-08 11:00:07 +0200} | 2026-05-08 11:00:07 +0200 | commit: passo 4 add scarica
+HEAD@{2026-05-08 11:00:07 +0200} | 2026-05-08 11:00:07 +0200 | commit: passo 4 add scarica
+HEAD@{2026-05-08 10:58:37 +0200} | 2026-05-08 10:57:22 +0200 | checkout: moving from main to passo4
+passo4@{2026-05-08 10:58:27 +0200} | 2026-05-08 10:57:22 +0200 | branch: Created from main
+main@{2026-05-08 10:57:58 +0200} | 2026-05-08 10:57:22 +0200 | merge passo3: Fast-forward
+HEAD@{2026-05-08 10:57:58 +0200} | 2026-05-08 10:57:22 +0200 | merge passo3: Fast-forward
+HEAD@{2026-05-08 10:57:33 +0200} | 2026-05-08 10:56:05 +0200 | checkout: moving from passo3 to main
+origin/passo3@{2026-05-08 10:57:29 +0200} | 2026-05-08 10:57:22 +0200 | update by push
+passo3@{2026-05-08 10:57:22 +0200} | 2026-05-08 10:57:22 +0200 | commit: passo 3 add carica
+HEAD@{2026-05-08 10:57:22 +0200} | 2026-05-08 10:57:22 +0200 | commit: passo 3 add carica
+HEAD@{2026-05-08 10:57:00 +0200} | 2026-05-08 10:56:05 +0200 | checkout: moving from main to passo3
+main@{2026-05-08 10:56:30 +0200} | 2026-05-08 10:56:05 +0200 | merge passo3: Fast-forward
+HEAD@{2026-05-08 10:56:30 +0200} | 2026-05-08 10:56:05 +0200 | merge passo3: Fast-forward
+HEAD@{2026-05-08 10:56:24 +0200} | 2026-05-08 10:53:36 +0200 | checkout: moving from passo3 to main
+origin/passo3@{2026-05-08 10:56:20 +0200} | 2026-05-08 10:56:05 +0200 | update by push
+passo3@{2026-05-08 10:56:05 +0200} | 2026-05-08 10:56:05 +0200 | commit: passo 3
+HEAD@{2026-05-08 10:56:05 +0200} | 2026-05-08 10:56:05 +0200 | commit: passo 3
+HEAD@{2026-05-08 10:55:25 +0200} | 2026-05-08 10:53:36 +0200 | checkout: moving from main to passo3
+passo3@{2026-05-08 10:55:14 +0200} | 2026-05-08 10:53:36 +0200 | branch: Created from main
+HEAD@{2026-05-08 10:53:46 +0200} | 2026-05-08 10:53:36 +0200 | checkout: moving from main to main
+origin/main@{2026-05-08 10:53:41 +0200} | 2026-05-08 10:53:36 +0200 | update by push
+main@{2026-05-08 10:53:36 +0200} | 2026-05-08 10:53:36 +0200 | commit: passo 2
+HEAD@{2026-05-08 10:53:36 +0200} | 2026-05-08 10:53:36 +0200 | commit: passo 2
+origin/main@{2026-05-08 10:52:07 +0200} | 2026-05-08 10:50:14 +0200 | update by push
+main@{2026-05-08 10:51:35 +0200} | 2026-05-08 10:50:14 +0200 | merge passo1: Fast-forward
+HEAD@{2026-05-08 10:51:35 +0200} | 2026-05-08 10:50:14 +0200 | merge passo1: Fast-forward
+HEAD@{2026-05-08 10:51:12 +0200} | 2026-05-08 10:48:24 +0200 | checkout: moving from passo1 to main
+origin/passo1@{2026-05-08 10:50:30 +0200} | 2026-05-08 10:50:14 +0200 | update by push
+passo1@{2026-05-08 10:50:14 +0200} | 2026-05-08 10:50:14 +0200 | commit: passo 1
+HEAD@{2026-05-08 10:50:14 +0200} | 2026-05-08 10:50:14 +0200 | commit: passo 1
+HEAD@{2026-05-08 10:48:50 +0200} | 2026-05-08 10:48:24 +0200 | checkout: moving from main to passo1
+passo1@{2026-05-08 10:48:44 +0200} | 2026-05-08 10:48:24 +0200 | branch: Created from main
+origin/main@{2026-05-08 10:48:32 +0200} | 2026-05-08 10:48:24 +0200 | update by push
+main@{2026-05-08 10:48:24 +0200} | 2026-05-08 10:48:24 +0200 | commit: add gitignore
+HEAD@{2026-05-08 10:48:24 +0200} | 2026-05-08 10:48:24 +0200 | commit: add gitignore
+main@{2026-05-08 10:47:49 +0200} | 2026-05-08 10:47:49 +0200 | commit: add gitignore
+HEAD@{2026-05-08 10:47:49 +0200} | 2026-05-08 10:47:49 +0200 | commit: add gitignore
+origin/main@{2026-05-08 10:46:57 +0200} | 2026-05-08 10:46:53 +0200 | update by push
+main@{2026-05-08 10:46:54 +0200} | 2026-05-08 10:46:53 +0200 | Branch: renamed refs/heads/master to refs/heads/main
+HEAD@{2026-05-08 10:46:54 +0200} | 2026-05-08 10:46:53 +0200 | Branch: renamed refs/heads/master to refs/heads/main
+main@{2026-05-08 10:46:53 +0200} | 2026-05-08 10:46:53 +0200 | commit (initial): first commit
+HEAD@{2026-05-08 10:46:53 +0200} | 2026-05-08 10:46:53 +0200 | commit (initial): first commit
