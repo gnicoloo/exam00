@@ -63,3 +63,45 @@ assert risultato is False
 assert m.scorta == 150
 
 print("PASSO 3 OK\n")
+
+
+
+print("========== PASSO 4 ==========")
+
+print("Scorta iniziale:", m.scorta)
+
+risultato = m.scarica(30)
+
+print("Scarica 30 ->", risultato)
+print("Scorta:", m.scorta)
+
+assert risultato is True
+assert m.scorta == 120
+
+risultato = m.scarica(0)
+
+print("Scarica 0 ->", risultato)
+print("Scorta:", m.scorta)
+
+assert risultato is False
+assert m.scorta == 120
+
+risultato = m.scarica(-5)
+
+print("Scarica -5 ->", risultato)
+print("Scorta:", m.scorta)
+
+assert risultato is False
+assert m.scorta == 120
+
+risultato = m.scarica(10000)
+
+print("Scarica 10000 ->", risultato)
+print("Scorta:", m.scorta)
+
+assert risultato is False
+assert m.scorta == 120
+
+print("PASSO 4 OK\n")
+
+# --------------------------------------------------

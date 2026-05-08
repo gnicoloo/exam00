@@ -11,3 +11,8 @@ class Magazzino:
             return True
         else:
             return False
+    def scarica(self, quantita):
+        if(quantita > self.scorta or quantita <= 0):
+            return False
+        self.scorta -= quantita
+        return True
