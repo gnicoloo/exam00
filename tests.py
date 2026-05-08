@@ -146,3 +146,95 @@ assert "100" in descrizione
 print("PASSO 6 OK\n")
 
 # --------------------------------------------------
+
+print("========== PASSO 7 ==========")
+
+print("SCENARIO 1 - Esecuzione regolare")
+
+print("Scorta mittente prima:", mittente.scorta)
+print("Scorta destinatario prima:", destinatario.scorta)
+
+risultato = s.esegui()
+
+print("Esegui ->", risultato)
+
+print("Scorta mittente dopo:", mittente.scorta)
+print("Scorta destinatario dopo:", destinatario.scorta)
+
+assert risultato is True
+assert s.eseguita is True
+assert mittente.scorta == 900
+assert destinatario.scorta == 300
+
+print(str(s))
+
+print("\nSCENARIO 2 - Doppia esecuzione")
+
+risultato = s.esegui()
+
+print("Esegui di nuovo ->", risultato)
+
+assert risultato is False
+assert mittente.scorta == 900
+assert destinatario.scorta == 300
+
+print("\nSCENARIO 3 - Scorta insufficiente")
+
+m2 = Magazzino("Tizio", "MAG-003", 50)
+d2 = Magazzino("Caio", "MAG-004", 0)
+
+s2 = Spedizione(m2, d2, 100)
+
+print("Scorta mittente:", m2.scorta)
+
+risultato = s2.esegui()
+
+print("Esegui ->", risultato)
+
+print("Scorta mittente dopo:", m2.scorta)
+print("Scorta destinatario dopo:", d2.scorta)
+
+assert risultato is False
+assert m2.scorta == 50
+assert d2.scorta == 0
+
+print("\nSCENARIO 4 - Stesso magazzino")
+
+m3 = Magazzino("Pluto", "MAG-005", 100)
+
+s3 = Spedizione(m3, m3, 50)
+
+risultato = s3.esegui()
+
+print("Esegui ->", risultato)
+print("Scorta:", m3.scorta)
+
+assert risultato is False
+assert m3.scorta == 100
+
+print("\nSCENARIO 5 - Quantità non positiva")
+
+m4 = Magazzino("Topolino", "MAG-006", 100)
+d4 = Magazzino("Paperino", "MAG-007", 100)
+
+s4 = Spedizione(m4, d4, 0)
+
+risultato = s4.esegui()
+
+print("Esegui quantità 0 ->", risultato)
+
+assert risultato is False
+
+s5 = Spedizione(m4, d4, -10)
+
+risultato = s5.esegui()
+
+print("Esegui quantità -10 ->", risultato)
+
+assert risultato is False
+
+print("\nPASSO 7 OK\n")
+
+print("===================================")
+print("TUTTI I TEST SONO STATI SUPERATI")
+print("===================================")
