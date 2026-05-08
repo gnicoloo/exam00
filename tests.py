@@ -31,3 +31,35 @@ assert str(m) == "Mario Rossi (MAG-001): 100 unità"
 print(m)
 
 print("PASSO 2 OK\n")
+
+
+
+print("========== PASSO 3 ==========")
+
+print("Scorta iniziale:", m.scorta)
+
+risultato = m.carica(50)
+
+print("Carica 50 ->", risultato)
+print("Nuova scorta:", m.scorta)
+
+assert risultato is True
+assert m.scorta == 150
+
+risultato = m.carica(0)
+
+print("Carica 0 ->", risultato)
+print("Scorta:", m.scorta)
+
+assert risultato is False
+assert m.scorta == 150
+
+risultato = m.carica(-10)
+
+print("Carica -10 ->", risultato)
+print("Scorta:", m.scorta)
+
+assert risultato is False
+assert m.scorta == 150
+
+print("PASSO 3 OK\n")
