@@ -18,3 +18,16 @@ print("Creato magazzino default:", m_default)
 assert m_default.scorta == 0
 
 print("PASSO 1 OK\n")
+
+
+# --------------------------------------------------
+
+print("========== PASSO 2 ==========")
+
+print("Stringa magazzino:", str(m))
+
+assert str(m) == "Mario Rossi (MAG-001): 100 unità"
+
+print(m)
+
+print("PASSO 2 OK\n")
